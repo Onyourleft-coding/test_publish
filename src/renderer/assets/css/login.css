@@ -1,0 +1,144 @@
+.login {
+  height: 100vh;
+  background-image: url("../nimg/login.png");
+  background-size: 100% 100%;
+  padding: 0 23px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.l_we {
+  padding-top: 80px;
+  font-size: 36px;
+  font-family: PingFang SC,
+  PingFang SC-Regular;
+  font-weight: 500;
+  text-align: CENTER;
+  color: #ffffff;
+  line-height: 36px;
+  text-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.l_title {
+  font-size: 36px;
+  font-family: PingFang SC,
+  PingFang SC-Medium;
+  font-weight: 500;
+  text-align: CENTER;
+  color: #ffffff;
+  line-height: 36px;
+  letter-spacing: -0.01px;
+  text-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.l_ct {
+  background: url("../image/ra.png");
+  background-size: 100% 100%;
+  margin-top: 40px;
+  padding: 30px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 999;
+}
+
+.l_label {
+  font-size: 15px;
+  font-family: PingFang SC,
+  PingFang SC-Medium;
+  font-weight: 500;
+  text-align: LEFT;
+  color: #003afa;
+  line-height: 15px;
+  letter-spacing: 0.01px;
+  margin-bottom: 10px;
+}
+
+.l_input {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.l_input input {
+  height: 44px;
+  padding: 0 10px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 15px;
+  font-family: PingFang SC,
+  PingFang SC-Medium;
+  font-weight: 500;
+  text-align: LEFT;
+  color: #262628;
+  line-height: 44px;
+}
+
+.l_btn {
+  background: linear-gradient(264deg, #003afa 0%, #6950fb 100%);
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+  height: 50px;
+  line-height: 50px;
+  background-size: 100% 100%;
+  font-family: Source Han Sans SC;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.pwd_check {
+  font-size: 12px;
+  font-weight: 400;
+  color: #9c9c9b;
+  display: block;
+  margin: 10px 0;
+}
+
+.checkBox {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  border: 1px solid #eee;
+  background: #fff;
+  border-radius: 3px;
+  vertical-align: text-top;
+  margin-right: 5px;
+}
+
+.checkBox.active {
+  border: 0;
+  background: #003afa;
+  border-radius: 2px;
+  background-size: 100% 100%;
+}
+
+.checkBox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.footer_link {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  text-align: center;
+  width: calc(100% - 46px);
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer_link a {
+  color: #fff;
+}

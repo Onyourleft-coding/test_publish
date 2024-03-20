@@ -1,0 +1,164 @@
+img {
+    width: 100%;
+}
+
+.main {
+    padding: 14px;
+}
+
+.t_ct {
+    margin-bottom: 14px;
+}
+
+.t_top {
+    width: 100%;
+    overflow: hidden;
+}
+
+.t_left {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: #587678;
+    line-height: 25px;
+}
+.t_left img{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.t_right {
+    float: right;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #587678;
+    line-height: 25px;
+    position: relative;
+    padding-right: 12px;
+}
+
+.icon_right {
+    margin-left: 7px;
+    width: 4px;
+    height: 7px;
+    position: absolute;
+    top:9px;
+    right: 3px;
+}
+
+.m_ct {
+    position: relative;
+    top: -150px;
+}
+
+.m_item {
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 25px 27px;
+    border-radius: 7px;
+
+}
+
+.m_student {
+
+    overflow: hidden;
+    margin-bottom: 22px;
+}
+
+.m_one {
+    float: left;
+    width: 70px;
+}
+
+.m_two {
+    float: left;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.m_two > p:nth-child(1) {
+    padding: 8px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 28px;
+}
+
+.m_two > p:nth-child(2) {
+    font-size: 15px;
+    font-weight: 600;
+    color: #8990A1;
+    line-height: 21px;
+}
+.m_bi{
+    height: 34px;
+    line-height: 34px;
+    background: #F1F8FF;
+    border-radius: 17px;
+    padding: 0 15px;
+}
+.m_bi>span{
+    color: #FDBE17;
+}
+.m_text{
+
+    height: 24px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.m_num{
+    height: 340px;
+}
+.m_input input{
+
+    height: 94px;
+    background: #F1F8FF;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #545659;
+    line-height: 60px;
+    width: 100%;
+    outline: none;
+    border: none;
+
+}
+.m_input{
+    margin-bottom: 20px;
+}
+.btn_primary{
+    border: none;
+    width: 100%;
+    outline: none;
+    height: 44px;
+    background: #FDBE17;
+    border-radius: 4px;
+    line-height: 44px;
+    color: #fff;
+    font-size: 17px;
+}
+.m_img{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.m_img img{
+    width: 53px;
+    height: 53px;
+}
+.m_p{
+    width: 200px;
+   margin: 0 auto;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 25px;
+}
+
