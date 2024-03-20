@@ -97,14 +97,14 @@ module.exports = {
         linux: {
           icon: "public/icons",
         },
-        // publish: [
-        //   // 'github'
-        // ]
-        publish: {
-          // provider: "generic",
-          // url: 'http://127.0.0.1:9005/'
-          // url: "http://www.dcxxpj.com",
-        },
+        publish: [
+          'github'
+        ]
+        // publish: {
+        //   // provider: "generic",
+        //   // url: 'http://127.0.0.1:9005/'
+        //   // url: "http://www.dcxxpj.com",
+        // },
       },
     },
   },
