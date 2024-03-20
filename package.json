@@ -1,7 +1,6 @@
 {
   "name": "CZHL",
   "version": "0.1.5",
-  "private": true,
   "description": "一个基于electron的跨平台桌面应用",
   "author": "xiasha",
   "scripts": {
