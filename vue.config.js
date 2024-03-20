@@ -101,8 +101,8 @@ module.exports = {
         //   // 'github'
         // ]
         publish: {
-          provider: "generic",
-          url: 'http://127.0.0.1:9005/'
+          // provider: "generic",
+          // url: 'http://127.0.0.1:9005/'
           // url: "http://www.dcxxpj.com",
         },
       },
